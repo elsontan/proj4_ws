@@ -1,0 +1,71 @@
+[0.030s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_description
+[0.063s] -- The C compiler identification is GNU 9.4.0
+[0.100s] -- The CXX compiler identification is GNU 9.4.0
+[0.103s] -- Check for working C compiler: /usr/bin/cc
+[0.149s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.149s] -- Detecting C compiler ABI info
+[0.192s] -- Detecting C compiler ABI info - done
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.208s] -- Check for working CXX compiler: /usr/bin/c++
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.259s] -- Detecting CXX compiler ABI info
+[0.310s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Detecting CXX compile features
+[0.317s] -- Detecting CXX compile features - done
+[0.319s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.339s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.339s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.500s] -- Configuring done
+[0.501s] -- Generating done
+[0.501s] -- Build files have been written to: /home/elson/proj4_ws/build/turtlebot3_manipulation_description
+[0.502s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_description -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_description
+[0.504s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_description -- -j16 -l16
+[0.526s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_description -- -j16 -l16
+[0.544s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_description
+[0.551s] -- Install configuration: ""
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/materials.xacro
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x
+[0.551s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl
+[0.552s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl
+[0.552s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl
+[0.552s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl
+[0.552s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl
+[0.552s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[0.553s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[0.553s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi
+[0.553s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl
+[0.554s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl
+[0.554s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl
+[0.558s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/turtlebot3_manipulation_description.dsv
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_description
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_description
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.dsv
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.sh
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.dsv
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.bash
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.sh
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.zsh
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.dsv
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/packages/turtlebot3_manipulation_description
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig.cmake
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig-version.cmake
+[0.559s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.xml
+[0.574s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_description

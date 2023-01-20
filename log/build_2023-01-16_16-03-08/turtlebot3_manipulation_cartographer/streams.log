@@ -1,0 +1,33 @@
+[0.089s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer
+[0.400s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.510s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.644s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.994s] -- Configuring done
+[1.202s] -- Generating done
+[1.203s] -- Build files have been written to: /home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer
+[1.204s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer
+[1.205s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer -- -j16 -l16
+[1.226s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer -- -j16 -l16
+[1.244s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer
+[1.248s] -- Install configuration: ""
+[1.249s] -- Execute custom install script
+[1.249s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/config/turtlebot3_2d.lua
+[1.254s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/launch/cartographer.launch.py
+[1.259s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/launch/occupancy_grid.launch.py
+[1.265s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/rviz/cartographer.rviz
+[1.269s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_cartographer
+[1.274s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_cartographer
+[1.279s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/ament_prefix_path.sh
+[1.284s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/ament_prefix_path.dsv
+[1.289s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/path.sh
+[1.293s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/environment/path.dsv
+[1.300s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.bash
+[1.303s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.sh
+[1.308s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.zsh
+[1.313s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/local_setup.dsv
+[1.318s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.dsv
+[1.323s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/ament_index/resource_index/packages/turtlebot3_manipulation_cartographer
+[1.328s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/cmake/turtlebot3_manipulation_cartographerConfig.cmake
+[1.333s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/cmake/turtlebot3_manipulation_cartographerConfig-version.cmake
+[1.338s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.xml
+[1.344s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_cartographer

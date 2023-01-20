@@ -1,0 +1,84 @@
+[0.010s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_teleop': AMENT_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/dev_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/dev_ws/install/my_bot_moveit_config:/home/elson/dev_ws/install/my_bot_description:/home/elson/dev_ws/install/my_bot_bringup:/home/elson/dev_ws/install/my_bot:/home/elson/dev_ws/install/astra_camera_msgs:/home/elson/turtlebot3_ws/install/turtlebot3_simulations:/home/elson/turtlebot3_ws/install/turtlebot3_gazebo:/home/elson/turtlebot3_ws/install/turtlebot3_fake_node:/home/elson/turtlebot3_ws/install/gazebo_ros2_control_demos:/home/elson/turtlebot3_ws/install/gazebo_ros2_control:/home/elson/riot_ws/install/riot_description:/home/elson/riot_ws/install/riot_bringup:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_teleop
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.148s] -- The CXX compiler identification is GNU 9.4.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.240s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.240s] -- Detecting C compiler ABI info
+[0.308s] -- Detecting C compiler ABI info - done
+[0.317s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.319s] -- Check for working CXX compiler: /usr/bin/c++
+[0.364s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.365s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.425s] -- Detecting CXX compile features
+[0.425s] -- Detecting CXX compile features - done
+[0.428s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.447s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.447s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.567s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.609s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.663s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.684s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.777s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.778s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.779s] -- Looking for pthread.h
+[0.840s] -- Looking for pthread.h - found
+[0.840s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.935s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.935s] -- Looking for pthread_create in pthreads
+[0.997s] -- Looking for pthread_create in pthreads - not found
+[0.997s] -- Looking for pthread_create in pthread
+[1.043s] -- Looking for pthread_create in pthread - found
+[1.044s] -- Found Threads: TRUE  
+[1.150s] -- Found turtlebot3_manipulation_bringup: 1.2.0 (/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/cmake)
+[1.150s] -- Found turtlebot3_manipulation_moveit_config: 1.2.0 (/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/cmake)
+[1.150s] -- Found turtlebot3_manipulation_description: 1.2.0 (/home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake)
+[1.152s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.202s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.266s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[1.479s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.566s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.643s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.701s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.701s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.702s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop/include>
+[1.702s] -- Configured cppcheck exclude dirs and/or files: 
+[1.702s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.702s] -- Configured cpplint exclude dirs and/or files: 
+[1.703s] -- Added test 'lint_cmake' to check CMake code style
+[1.703s] -- Added test 'uncrustify' to check C / C++ code style
+[1.703s] -- Configured uncrustify additional arguments: 
+[1.704s] -- Added test 'xmllint' to check XML markup files
+[1.706s] -- Configuring done
+[1.713s] -- Generating done
+[1.714s] -- Build files have been written to: /home/elson/proj4_ws/build/turtlebot3_manipulation_teleop
+[1.721s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_teleop' returned '0': AMENT_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/dev_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/dev_ws/install/my_bot_moveit_config:/home/elson/dev_ws/install/my_bot_description:/home/elson/dev_ws/install/my_bot_bringup:/home/elson/dev_ws/install/my_bot:/home/elson/dev_ws/install/astra_camera_msgs:/home/elson/turtlebot3_ws/install/turtlebot3_simulations:/home/elson/turtlebot3_ws/install/turtlebot3_gazebo:/home/elson/turtlebot3_ws/install/turtlebot3_fake_node:/home/elson/turtlebot3_ws/install/gazebo_ros2_control_demos:/home/elson/turtlebot3_ws/install/gazebo_ros2_control:/home/elson/riot_ws/install/riot_description:/home/elson/riot_ws/install/riot_bringup:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_teleop
+[1.722s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_teleop': AMENT_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/dev_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/dev_ws/install/my_bot_moveit_config:/home/elson/dev_ws/install/my_bot_description:/home/elson/dev_ws/install/my_bot_bringup:/home/elson/dev_ws/install/my_bot:/home/elson/dev_ws/install/astra_camera_msgs:/home/elson/turtlebot3_ws/install/turtlebot3_simulations:/home/elson/turtlebot3_ws/install/turtlebot3_gazebo:/home/elson/turtlebot3_ws/install/turtlebot3_fake_node:/home/elson/turtlebot3_ws/install/gazebo_ros2_control_demos:/home/elson/turtlebot3_ws/install/gazebo_ros2_control:/home/elson/riot_ws/install/riot_description:/home/elson/riot_ws/install/riot_bringup:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_teleop -- -j16 -l16
+[1.746s] [35m[1mScanning dependencies of target turtlebot3_manipulation_teleop[0m
+[2.020s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_teleop.dir/src/turtlebot3_manipulation_teleop.cpp.o[0m
+[4.565s] [100%] [32m[1mLinking CXX executable turtlebot3_manipulation_teleop[0m
+[4.754s] [100%] Built target turtlebot3_manipulation_teleop
+[4.761s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_teleop' returned '0': AMENT_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/dev_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/dev_ws/install/my_bot_moveit_config:/home/elson/dev_ws/install/my_bot_description:/home/elson/dev_ws/install/my_bot_bringup:/home/elson/dev_ws/install/my_bot:/home/elson/dev_ws/install/astra_camera_msgs:/home/elson/turtlebot3_ws/install/turtlebot3_simulations:/home/elson/turtlebot3_ws/install/turtlebot3_gazebo:/home/elson/turtlebot3_ws/install/turtlebot3_fake_node:/home/elson/turtlebot3_ws/install/gazebo_ros2_control_demos:/home/elson/turtlebot3_ws/install/gazebo_ros2_control:/home/elson/riot_ws/install/riot_description:/home/elson/riot_ws/install/riot_bringup:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_teleop -- -j16 -l16
+[4.779s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_teleop': AMENT_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/dev_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/dev_ws/install/my_bot_moveit_config:/home/elson/dev_ws/install/my_bot_description:/home/elson/dev_ws/install/my_bot_bringup:/home/elson/dev_ws/install/my_bot:/home/elson/dev_ws/install/astra_camera_msgs:/home/elson/turtlebot3_ws/install/turtlebot3_simulations:/home/elson/turtlebot3_ws/install/turtlebot3_gazebo:/home/elson/turtlebot3_ws/install/turtlebot3_fake_node:/home/elson/turtlebot3_ws/install/gazebo_ros2_control_demos:/home/elson/turtlebot3_ws/install/gazebo_ros2_control:/home/elson/riot_ws/install/riot_description:/home/elson/riot_ws/install/riot_bringup:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_teleop
+[4.785s] -- Install configuration: ""
+[4.785s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/lib/turtlebot3_manipulation_teleop/turtlebot3_manipulation_teleop
+[4.786s] -- Set runtime path of "/home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/lib/turtlebot3_manipulation_teleop/turtlebot3_manipulation_teleop" to ""
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_teleop
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_teleop
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/ament_prefix_path.sh
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/ament_prefix_path.dsv
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/path.sh
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/environment/path.dsv
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.bash
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.sh
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.zsh
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/local_setup.dsv
+[4.786s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.dsv
+[4.787s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/ament_index/resource_index/packages/turtlebot3_manipulation_teleop
+[4.787s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/cmake/turtlebot3_manipulation_teleopConfig.cmake
+[4.787s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/cmake/turtlebot3_manipulation_teleopConfig-version.cmake
+[4.787s] -- Installing: /home/elson/proj4_ws/install/turtlebot3_manipulation_teleop/share/turtlebot3_manipulation_teleop/package.xml
+[4.789s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_teleop' returned '0': AMENT_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/dev_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/dev_ws/install/my_bot_moveit_config:/home/elson/dev_ws/install/my_bot_description:/home/elson/dev_ws/install/my_bot_bringup:/home/elson/dev_ws/install/my_bot:/home/elson/dev_ws/install/astra_camera_msgs:/home/elson/turtlebot3_ws/install/turtlebot3_simulations:/home/elson/turtlebot3_ws/install/turtlebot3_gazebo:/home/elson/turtlebot3_ws/install/turtlebot3_fake_node:/home/elson/turtlebot3_ws/install/gazebo_ros2_control_demos:/home/elson/turtlebot3_ws/install/gazebo_ros2_control:/home/elson/riot_ws/install/riot_description:/home/elson/riot_ws/install/riot_bringup:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_teleop

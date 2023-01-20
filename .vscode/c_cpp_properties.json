@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/include/**",
+        "/home/elson/dev_ws/install/astra_camera_msgs/include/**",
+        "/home/elson/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/elson/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/home/elson/turtlebot3_ws/install/gazebo_ros2_control/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware/include/**",
+        "/home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_teleop/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
