@@ -360,3 +360,6 @@ ament_cmake_symlink_install_directory("/home/elson/proj4_ws/src/turtlebot3_manip
 
 # install(FILES ".setup_assistant" "DESTINATION" "share/turtlebot3_manipulation_moveit_config")
 ament_cmake_symlink_install_files("/home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config" FILES ".setup_assistant" "DESTINATION" "share/turtlebot3_manipulation_moveit_config")
+
+# install(DIRECTORY "config" "launch" "DESTINATION" "share/turtlebot3_manipulation_moveit_config")
+ament_cmake_symlink_install_directory("/home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config" DIRECTORY "config" "launch" "DESTINATION" "share/turtlebot3_manipulation_moveit_config")

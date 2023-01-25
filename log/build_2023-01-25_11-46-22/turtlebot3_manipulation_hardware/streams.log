@@ -1,0 +1,15 @@
+[0.152s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/turtlebot3_ws/install/turtlebot3_commander:/home/elson/turtlebot3_ws/install/nav2_simple_commander:/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware
+[0.661s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.741s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.899s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.021s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/foxy/share/dynamixel_sdk/cmake)
+[1.037s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[1.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.587s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.144s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.306s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.312s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.798s] -- Configuring done
+[4.246s] -- Generating done
+[4.249s] -- Build files have been written to: /home/elson/proj4_ws/build/turtlebot3_manipulation_hardware
