@@ -16,5 +16,6 @@
         "/home/elson/turtlebot3_ws/install/nav2_simple_commander/lib/python3.8/site-packages",
         "/home/elson/nav2_simple_commander_ws/install/turtlebot3_commander/lib/python3.8/site-packages",
         "/opt/ros/foxy/lib/python3.8/site-packages"
-    ]
+    ],
+    "ros.distro": "foxy"
 }

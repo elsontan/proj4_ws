@@ -1,0 +1,65 @@
+[0.525s] Invoking command in '/home/elson/proj4_ws/build/nav2_sms_behavior': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/navigation2_tutorials/nav2_sms_behavior -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/nav2_sms_behavior
+[2.721s] -- The C compiler identification is GNU 9.4.0
+[3.678s] -- The CXX compiler identification is GNU 9.4.0
+[3.777s] -- Check for working C compiler: /usr/bin/cc
+[3.864s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.865s] -- Detecting C compiler ABI info
+[3.934s] -- Detecting C compiler ABI info - done
+[3.941s] -- Detecting C compile features
+[3.973s] -- Detecting C compile features - done
+[3.985s] -- Check for working CXX compiler: /usr/bin/c++
+[4.178s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.179s] -- Detecting CXX compiler ABI info
+[4.354s] -- Detecting CXX compiler ABI info - done
+[4.363s] -- Detecting CXX compile features
+[4.364s] -- Detecting CXX compile features - done
+[4.644s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.759s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.759s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.870s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.978s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.221s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.253s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.456s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.475s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.596s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.791s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.795s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.826s] -- Looking for pthread.h
+[6.024s] -- Looking for pthread.h - found
+[6.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.091s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.091s] -- Looking for pthread_create in pthreads
+[6.166s] -- Looking for pthread_create in pthreads - not found
+[6.166s] -- Looking for pthread_create in pthread
+[6.208s] -- Looking for pthread_create in pthread - found
+[6.209s] -- Found Threads: TRUE  
+[6.425s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[6.613s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[6.710s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[6.815s] -- Found nav2_util: 0.4.7 (/opt/ros/foxy/share/nav2_util/cmake)
+[7.509s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.511s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.623s] -- Found nav2_costmap_2d: 0.4.7 (/opt/ros/foxy/share/nav2_costmap_2d/cmake)
+[8.022s] -- Found nav2_core: 0.4.7 (/opt/ros/foxy/share/nav2_core/cmake)
+[8.322s] CMake Error at CMakeLists.txt:22 (find_package):
+[8.322s]   By not providing "Findnav2_behaviors.cmake" in CMAKE_MODULE_PATH this
+[8.322s]   project has asked CMake to find a package configuration file provided by
+[8.322s]   "nav2_behaviors", but CMake did not find one.
+[8.322s] 
+[8.322s]   Could not find a package configuration file provided by "nav2_behaviors"
+[8.322s]   with any of the following names:
+[8.322s] 
+[8.322s]     nav2_behaviorsConfig.cmake
+[8.322s]     nav2_behaviors-config.cmake
+[8.322s] 
+[8.322s]   Add the installation prefix of "nav2_behaviors" to CMAKE_PREFIX_PATH or set
+[8.322s]   "nav2_behaviors_DIR" to a directory containing one of the above files.  If
+[8.322s]   "nav2_behaviors" provides a separate development package or SDK, be sure it
+[8.322s]   has been installed.
+[8.323s] 
+[8.323s] 
+[8.323s] -- Configuring incomplete, errors occurred!
+[8.323s] See also "/home/elson/proj4_ws/build/nav2_sms_behavior/CMakeFiles/CMakeOutput.log".
+[8.323s] See also "/home/elson/proj4_ws/build/nav2_sms_behavior/CMakeFiles/CMakeError.log".
+[8.330s] Invoked command in '/home/elson/proj4_ws/build/nav2_sms_behavior' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/navigation2_tutorials/nav2_sms_behavior -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/nav2_sms_behavior

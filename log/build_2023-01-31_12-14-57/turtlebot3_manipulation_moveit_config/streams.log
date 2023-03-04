@@ -1,0 +1,79 @@
+[0.010s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config': CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/turtlebot3_commander:/home/elson/proj4_ws/install/turtlebot3_manipulation:/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config
+[0.041s] -- The C compiler identification is GNU 9.4.0
+[0.109s] -- The CXX compiler identification is GNU 9.4.0
+[0.112s] -- Check for working C compiler: /usr/bin/cc
+[0.159s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.159s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.208s] -- Detecting C compile features
+[0.208s] -- Detecting C compile features - done
+[0.209s] -- Check for working CXX compiler: /usr/bin/c++
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.258s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Detecting CXX compile features
+[0.320s] -- Detecting CXX compile features - done
+[0.322s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.337s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.436s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.488s] -- Configuring done
+[0.489s] -- Generating done
+[0.490s] -- Build files have been written to: /home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config
+[0.495s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/turtlebot3_commander:/home/elson/proj4_ws/install/turtlebot3_manipulation:/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config
+[0.497s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config': CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/turtlebot3_commander:/home/elson/proj4_ws/install/turtlebot3_manipulation:/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config -- -j16 -l16
+[0.519s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/turtlebot3_commander:/home/elson/proj4_ws/install/turtlebot3_manipulation:/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config -- -j16 -l16
+[0.532s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config': CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/turtlebot3_commander:/home/elson/proj4_ws/install/turtlebot3_manipulation:/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config
+[0.537s] -- Install configuration: ""
+[0.538s] -- Execute custom install script
+[0.538s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_moveit_config
+[0.543s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_moveit_config
+[0.548s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/environment/ament_prefix_path.sh
+[0.552s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/environment/ament_prefix_path.dsv
+[0.557s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/environment/path.sh
+[0.562s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/environment/path.dsv
+[0.569s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/local_setup.bash
+[0.572s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/local_setup.sh
+[0.577s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/local_setup.zsh
+[0.582s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/local_setup.dsv
+[0.587s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.dsv
+[0.592s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/ament_index/resource_index/packages/turtlebot3_manipulation_moveit_config
+[0.596s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/cmake/turtlebot3_manipulation_moveit_configConfig.cmake
+[0.601s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/cmake/turtlebot3_manipulation_moveit_configConfig-version.cmake
+[0.605s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/package.xml
+[0.611s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/move_group.launch copy.py
+[0.616s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/move_group.launch.py
+[0.621s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/moveit_core.launch.py
+[0.626s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/moveit_fake.launch.py
+[0.630s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/moveit_gazebo.launch.py
+[0.635s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/moveit_rviz.launch.py
+[0.640s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/rsp.launch.py
+[0.645s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/spawn_controllers.launch.py
+[0.650s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/initial_positions.yaml
+[0.655s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/joint_limits.yaml
+[0.660s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/kinematics.yaml
+[0.665s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/moveit.rviz
+[0.670s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/moveit_controllers.yaml
+[0.675s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/ompl_planning.yaml
+[0.680s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/pilz_cartesian_limits.yaml
+[0.686s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/turtlebot3_manipulation copy.srdf
+[0.691s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/turtlebot3_manipulation.srdf
+[0.696s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/.setup_assistant
+[0.701s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/initial_positions.yaml
+[0.701s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/joint_limits.yaml
+[0.701s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/kinematics.yaml
+[0.702s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/moveit.rviz
+[0.702s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/moveit_controllers.yaml
+[0.702s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/ompl_planning.yaml
+[0.702s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/pilz_cartesian_limits.yaml
+[0.702s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/turtlebot3_manipulation copy.srdf
+[0.702s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/config/turtlebot3_manipulation.srdf
+[0.703s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/move_group.launch copy.py
+[0.703s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/move_group.launch.py
+[0.703s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/moveit_core.launch.py
+[0.703s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/moveit_fake.launch.py
+[0.703s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/moveit_gazebo.launch.py
+[0.703s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/moveit_rviz.launch.py
+[0.703s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/rsp.launch.py
+[0.703s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config/share/turtlebot3_manipulation_moveit_config/launch/spawn_controllers.launch.py
+[0.706s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/elson/proj4_ws/install/turtlebot3_manipulation_description:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/turtlebot3_commander:/home/elson/proj4_ws/install/turtlebot3_manipulation:/home/elson/proj4_ws/install/turtlebot3_manipulation_moveit_config:/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware:/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup:/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_moveit_config

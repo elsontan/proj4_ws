@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing turtlebot3_manipulation_commander.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_manipulation_commander.egg-info/dependency_links.txt
+writing entry points to turtlebot3_manipulation_commander.egg-info/entry_points.txt
+writing requirements to turtlebot3_manipulation_commander.egg-info/requires.txt
+writing top-level names to turtlebot3_manipulation_commander.egg-info/top_level.txt
+reading manifest file 'turtlebot3_manipulation_commander.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_manipulation_commander.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/elson/proj4_ws/install/turtlebot3_manipulation_commander/lib/python3.8/site-packages/turtlebot3-manipulation-commander.egg-link (link to .)
+Installing follower_ros script to /home/elson/proj4_ws/install/turtlebot3_manipulation_commander/lib/turtlebot3_manipulation_commander
+Installing robot_patrol script to /home/elson/proj4_ws/install/turtlebot3_manipulation_commander/lib/turtlebot3_manipulation_commander
+
+Installed /home/elson/proj4_ws/build/turtlebot3_manipulation_commander
+running install_data

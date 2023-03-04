@@ -1,5 +1,6 @@
 # generated from colcon_core/shell/template/command_prefix.sh.em
 . "/home/elson/proj4_ws/install/turtlebot3_manipulation_cartographer/share/turtlebot3_manipulation_cartographer/package.sh"
+. "/home/elson/proj4_ws/install/turtlebot3_manipulation_commander/share/turtlebot3_manipulation_commander/package.sh"
 . "/home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.sh"
 . "/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.sh"
 . "/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/package.sh"

@@ -1,0 +1,24 @@
+[0.560s] Invoking command in '/home/elson/proj4_ws/build/nav2_simple_commander': PYTHONPATH=/home/elson/proj4_ws/build/nav2_simple_commander/prefix_override:/home/elson/proj4_ws/install/nav2_simple_commander/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/elson/proj4_ws/build/nav2_simple_commander/build --no-deps install_data
+[0.685s] running develop
+[0.756s] running egg_info
+[0.756s] writing nav2_simple_commander.egg-info/PKG-INFO
+[0.756s] writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+[0.757s] writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+[0.757s] writing requirements to nav2_simple_commander.egg-info/requires.txt
+[0.757s] writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+[0.777s] reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[0.778s] writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+[0.797s] running build_ext
+[0.797s] Creating /home/elson/proj4_ws/install/nav2_simple_commander/lib/python3.8/site-packages/nav2-simple-commander.egg-link (link to .)
+[0.798s] Installing demo_inspection script to /home/elson/proj4_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.798s] Installing demo_picking script to /home/elson/proj4_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.798s] Installing demo_recoveries script to /home/elson/proj4_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.798s] Installing demo_security script to /home/elson/proj4_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.798s] Installing example_follow_path script to /home/elson/proj4_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.798s] Installing example_nav_through_poses script to /home/elson/proj4_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.798s] Installing example_nav_to_pose script to /home/elson/proj4_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.798s] Installing example_waypoint_follower script to /home/elson/proj4_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[0.798s] 
+[0.799s] Installed /home/elson/proj4_ws/build/nav2_simple_commander
+[0.799s] running install_data
+[0.816s] Invoked command in '/home/elson/proj4_ws/build/nav2_simple_commander' returned '0': PYTHONPATH=/home/elson/proj4_ws/build/nav2_simple_commander/prefix_override:/home/elson/proj4_ws/install/nav2_simple_commander/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/elson/proj4_ws/build/nav2_simple_commander/build --no-deps install_data

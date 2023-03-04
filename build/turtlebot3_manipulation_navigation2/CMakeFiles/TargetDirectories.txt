@@ -1,9 +1,0 @@
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/install/strip.dir
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/install/local.dir
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/install.dir
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/list_install_components.dir
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/rebuild_cache.dir
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/edit_cache.dir
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/test.dir
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/turtlebot3_manipulation_navigation2_uninstall.dir
-/home/elson/proj4_ws/build/turtlebot3_manipulation_navigation2/CMakeFiles/uninstall.dir

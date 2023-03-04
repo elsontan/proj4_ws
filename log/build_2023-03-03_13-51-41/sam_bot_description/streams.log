@@ -1,0 +1,57 @@
+[0.520s] Invoking command in '/home/elson/proj4_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/navigation2_tutorials/sam_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/sam_bot_description
+[2.712s] -- The C compiler identification is GNU 9.4.0
+[3.668s] -- The CXX compiler identification is GNU 9.4.0
+[3.767s] -- Check for working C compiler: /usr/bin/cc
+[3.855s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.856s] -- Detecting C compiler ABI info
+[3.925s] -- Detecting C compiler ABI info - done
+[3.937s] -- Detecting C compile features
+[3.963s] -- Detecting C compile features - done
+[3.975s] -- Check for working CXX compiler: /usr/bin/c++
+[4.169s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.169s] -- Detecting CXX compiler ABI info
+[4.324s] -- Detecting CXX compiler ABI info - done
+[4.331s] -- Detecting CXX compile features
+[4.331s] -- Detecting CXX compile features - done
+[4.635s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.749s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.749s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.860s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.983s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[5.006s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.217s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.218s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.219s] -- Added test 'lint_cmake' to check CMake code style
+[5.220s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.230s] -- Added test 'xmllint' to check XML markup files
+[5.232s] -- Configuring done
+[5.233s] -- Generating done
+[5.234s] -- Build files have been written to: /home/elson/proj4_ws/build/sam_bot_description
+[5.237s] Invoked command in '/home/elson/proj4_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/navigation2_tutorials/sam_bot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/sam_bot_description
+[5.239s] Invoking command in '/home/elson/proj4_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/sam_bot_description -- -j16 -l16
+[5.269s] Invoked command in '/home/elson/proj4_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/sam_bot_description -- -j16 -l16
+[5.289s] Invoking command in '/home/elson/proj4_ws/build/sam_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/sam_bot_description
+[5.301s] -- Install configuration: ""
+[5.301s] -- Execute custom install script
+[5.303s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+[5.313s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+[5.325s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/rviz/urdf_config.rviz
+[5.334s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+[5.339s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml
+[5.343s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+[5.348s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+[5.353s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+[5.357s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+[5.362s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+[5.367s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+[5.371s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+[5.376s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+[5.381s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+[5.385s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+[5.390s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+[5.394s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/package.dsv
+[5.399s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+[5.403s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+[5.408s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+[5.412s] -- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/package.xml
+[5.421s] Invoked command in '/home/elson/proj4_ws/build/sam_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/sam_bot_description

@@ -1,0 +1,51 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/elson/proj4_ws/build/sam_bot_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/src/description/sam_bot_description.urdf
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/launch/display.launch.py
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/rviz/urdf_config.rviz
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/config/ekf.yaml
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/config/nav2_params.yaml
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/world/my_world.sdf
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/ament_index/resource_index/package_run_dependencies/sam_bot_description
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/ament_index/resource_index/parent_prefix_path/sam_bot_description
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/environment/path.sh
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/environment/path.dsv
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/local_setup.bash
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/local_setup.sh
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/local_setup.zsh
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/local_setup.dsv
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/package.dsv
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/ament_index/resource_index/packages/sam_bot_description
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig.cmake
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/cmake/sam_bot_descriptionConfig-version.cmake
+-- Symlinking: /home/elson/proj4_ws/install/sam_bot_description/share/sam_bot_description/package.xml

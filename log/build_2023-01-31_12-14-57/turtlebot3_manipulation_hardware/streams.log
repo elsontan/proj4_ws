@@ -1,0 +1,83 @@
+[0.138s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware
+[1.433s] -- The C compiler identification is GNU 9.4.0
+[1.485s] -- The CXX compiler identification is GNU 9.4.0
+[1.488s] -- Check for working C compiler: /usr/bin/cc
+[1.531s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.531s] -- Detecting C compiler ABI info
+[1.574s] -- Detecting C compiler ABI info - done
+[1.587s] -- Detecting C compile features
+[1.587s] -- Detecting C compile features - done
+[1.590s] -- Check for working CXX compiler: /usr/bin/c++
+[1.639s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.639s] -- Detecting CXX compiler ABI info
+[1.687s] -- Detecting CXX compiler ABI info - done
+[1.694s] -- Detecting CXX compile features
+[1.695s] -- Detecting CXX compile features - done
+[1.696s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.711s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.711s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.820s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.840s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/foxy/share/dynamixel_sdk/cmake)
+[1.842s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[1.864s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.869s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.952s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.980s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.352s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.382s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.384s] -- Looking for pthread.h
+[2.428s] -- Looking for pthread.h - found
+[2.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.472s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.472s] -- Looking for pthread_create in pthreads
+[2.528s] -- Looking for pthread_create in pthreads - not found
+[2.528s] -- Looking for pthread_create in pthread
+[2.571s] -- Looking for pthread_create in pthread - found
+[2.572s] -- Found Threads: TRUE  
+[2.711s] -- Configuring done
+[2.723s] -- Generating done
+[2.724s] -- Build files have been written to: /home/elson/proj4_ws/build/turtlebot3_manipulation_hardware
+[2.730s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/turtlebot3_manipulation_hardware
+[2.732s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_hardware -- -j16 -l16
+[2.755s] [35m[1mScanning dependencies of target turtlebot3_manipulation_hardware[0m
+[2.777s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[2.777s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/opencr.cpp.o[0m
+[2.780s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlebot3_manipulation_hardware.dir/src/turtlebot3_manipulation_system.cpp.o[0m
+[4.384s] [100%] [32m[1mLinking CXX shared library libturtlebot3_manipulation_hardware.so[0m
+[4.483s] [100%] Built target turtlebot3_manipulation_hardware
+[4.490s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_hardware -- -j16 -l16
+[4.515s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_hardware
+[4.524s] -- Install configuration: ""
+[4.524s] -- Execute custom install script
+[4.524s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware//turtlebot3_manipulation_hardware.xml
+[4.530s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/dynamixel_sdk_wrapper.hpp
+[4.537s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr.hpp
+[4.542s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr_control_table.hpp
+[4.547s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/opencr_definitions.hpp
+[4.551s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/turtlebot3_manipulation_system.hpp
+[4.556s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/include/turtlebot3_manipulation_hardware/visibility_control.h
+[4.561s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/lib/libturtlebot3_manipulation_hardware.so
+[4.566s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/library_path.sh
+[4.570s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/library_path.dsv
+[4.575s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_hardware
+[4.579s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_hardware
+[4.584s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/ament_prefix_path.sh
+[4.588s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/ament_prefix_path.dsv
+[4.593s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/path.sh
+[4.597s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/environment/path.dsv
+[4.601s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.bash
+[4.606s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.sh
+[4.611s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.zsh
+[4.615s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/local_setup.dsv
+[4.619s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.dsv
+[4.624s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/packages/turtlebot3_manipulation_hardware
+[4.629s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/turtlebot3_manipulation_hardware
+[4.633s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.638s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[4.643s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.647s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/turtlebot3_manipulation_hardwareConfig.cmake
+[4.652s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/cmake/turtlebot3_manipulation_hardwareConfig-version.cmake
+[4.657s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_hardware/share/turtlebot3_manipulation_hardware/package.xml
+[4.664s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commanader:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_hardware

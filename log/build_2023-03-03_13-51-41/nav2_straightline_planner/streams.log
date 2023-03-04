@@ -1,0 +1,58 @@
+[0.523s] Invoking command in '/home/elson/proj4_ws/build/nav2_straightline_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/navigation2_tutorials/nav2_straightline_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/nav2_straightline_planner
+[2.717s] -- The C compiler identification is GNU 9.4.0
+[3.674s] -- The CXX compiler identification is GNU 9.4.0
+[3.772s] -- Check for working C compiler: /usr/bin/cc
+[3.860s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.860s] -- Detecting C compiler ABI info
+[3.929s] -- Detecting C compiler ABI info - done
+[3.942s] -- Detecting C compile features
+[3.968s] -- Detecting C compile features - done
+[3.980s] -- Check for working CXX compiler: /usr/bin/c++
+[4.122s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.124s] -- Detecting CXX compiler ABI info
+[4.221s] -- Detecting CXX compiler ABI info - done
+[4.228s] -- Detecting CXX compile features
+[4.228s] -- Detecting CXX compile features - done
+[4.640s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.755s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.755s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.865s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.973s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.216s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.248s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.451s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.470s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.786s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.791s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.821s] -- Looking for pthread.h
+[6.020s] -- Looking for pthread.h - found
+[6.020s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.086s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.086s] -- Looking for pthread_create in pthreads
+[6.161s] -- Looking for pthread_create in pthreads - not found
+[6.161s] -- Looking for pthread_create in pthread
+[6.203s] -- Looking for pthread_create in pthread - found
+[6.204s] -- Found Threads: TRUE  
+[6.421s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[6.608s] -- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[6.705s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[6.810s] -- Found nav2_util: 0.4.7 (/opt/ros/foxy/share/nav2_util/cmake)
+[7.505s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[7.507s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.618s] -- Found nav2_costmap_2d: 0.4.7 (/opt/ros/foxy/share/nav2_costmap_2d/cmake)
+[8.018s] -- Found nav2_core: 0.4.7 (/opt/ros/foxy/share/nav2_core/cmake)
+[9.477s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.527s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.528s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.528s] -- Configured cppcheck include dirs: /home/elson/proj4_ws/src/navigation2_tutorials/nav2_straightline_planner/include
+[9.528s] -- Configured cppcheck exclude dirs and/or files: 
+[9.528s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.528s] -- Configured cpplint exclude dirs and/or files: 
+[9.529s] -- Added test 'lint_cmake' to check CMake code style
+[9.529s] -- Added test 'uncrustify' to check C / C++ code style
+[9.529s] -- Configured uncrustify additional arguments: 
+[9.529s] -- Added test 'xmllint' to check XML markup files
+[9.579s] -- Configuring done
+[9.603s] -- Generating done
+[9.604s] -- Build files have been written to: /home/elson/proj4_ws/build/nav2_straightline_planner

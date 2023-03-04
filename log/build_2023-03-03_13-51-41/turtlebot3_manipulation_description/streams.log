@@ -1,0 +1,49 @@
+[0.210s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_description -- -j16 -l16
+[0.744s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/turtlebot3_manipulation_description -- -j16 -l16
+[0.765s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_description
+[0.774s] -- Install configuration: ""
+[0.809s] -- Execute custom install script
+[0.853s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
+[0.856s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+[0.974s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/depth_camera.xacro
+[0.974s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/inertial_macros.xacro
+[0.975s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
+[0.976s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/prototype.urdf.xacro
+[0.977s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/robot.urdf.xacro
+[0.982s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_manipulation.urdf.xacro
+[1.033s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/turtlebot3_waffle_pi.urdf.xacro
+[1.035s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/materials.xacro
+[1.036s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
+[1.037s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/prototype.gazebo.xacro
+[1.037s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+[1.083s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/chair/chair.stl
+[1.091s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
+[1.106s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
+[1.108s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl
+[1.113s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link2.stl
+[1.118s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link3.stl
+[1.128s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link4.stl
+[1.129s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link5.stl
+[1.142s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/base.stl
+[1.163s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/ladar.stl
+[1.200s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/left_tire.stl
+[1.201s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/turtlebot3_waffle_pi/right_tire.stl
+[1.207s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control copy.xacro
+[1.221s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/ros2_control/turtlebot3_manipulation_system.ros2_control.xacro
+[1.221s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/turtlebot3_manipulation_description.dsv
+[1.222s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_manipulation_description
+[1.294s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_manipulation_description
+[1.299s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.sh
+[1.300s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/ament_prefix_path.dsv
+[1.306s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.sh
+[1.306s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/environment/path.dsv
+[1.312s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.bash
+[1.349s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.sh
+[1.351s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.zsh
+[1.352s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/local_setup.dsv
+[1.352s] -- Symlinking: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.dsv
+[1.365s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/ament_index/resource_index/packages/turtlebot3_manipulation_description
+[1.367s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig.cmake
+[1.387s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/cmake/turtlebot3_manipulation_descriptionConfig-version.cmake
+[1.389s] -- Up-to-date symlink: /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/package.xml
+[1.623s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/turtlebot3_manipulation_description

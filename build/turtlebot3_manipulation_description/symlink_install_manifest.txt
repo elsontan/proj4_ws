@@ -1,5 +1,6 @@
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/launch/model.launch.py
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/rviz/model.rviz
+/home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/depth_camera.xacro
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/inertial_macros.xacro
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/open_manipulator_x.urdf.xacro
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/urdf/prototype.urdf.xacro
@@ -10,6 +11,7 @@
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/open_manipulator_x.gazebo.xacro
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/prototype.gazebo.xacro
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/gazebo/turtlebot3_waffle_pi.gazebo.xacro
+/home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/chair/chair.stl
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_left_palm.stl
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/gripper_right_palm.stl
 /home/elson/proj4_ws/install/turtlebot3_manipulation_description/share/turtlebot3_manipulation_description/meshes/open_manipulator_x/link1.stl

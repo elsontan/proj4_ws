@@ -1,0 +1,4 @@
+[console_scripts]
+follower_ros = turtlebot3_manipulation_commander.follower_ros:main
+robot_patrol = turtlebot3_manipulation_commander.turtlebot3_commander:main
+

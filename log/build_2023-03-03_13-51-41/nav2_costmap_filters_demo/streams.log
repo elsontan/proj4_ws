@@ -1,0 +1,51 @@
+[0.424s] Invoking command in '/home/elson/proj4_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/navigation2_tutorials/nav2_costmap_filters_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/nav2_costmap_filters_demo
+[2.763s] -- The C compiler identification is GNU 9.4.0
+[3.721s] -- The CXX compiler identification is GNU 9.4.0
+[3.819s] -- Check for working C compiler: /usr/bin/cc
+[3.906s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.907s] -- Detecting C compiler ABI info
+[3.976s] -- Detecting C compiler ABI info - done
+[3.983s] -- Detecting C compile features
+[4.014s] -- Detecting C compile features - done
+[4.026s] -- Check for working CXX compiler: /usr/bin/c++
+[4.164s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.166s] -- Detecting CXX compiler ABI info
+[4.274s] -- Detecting CXX compiler ABI info - done
+[4.282s] -- Detecting CXX compile features
+[4.282s] -- Detecting CXX compile features - done
+[4.686s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.801s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.801s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.921s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.058s] -- Configuring done
+[5.059s] -- Generating done
+[5.060s] -- Build files have been written to: /home/elson/proj4_ws/build/nav2_costmap_filters_demo
+[5.064s] Invoked command in '/home/elson/proj4_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake /home/elson/proj4_ws/src/navigation2_tutorials/nav2_costmap_filters_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/elson/proj4_ws/install/nav2_costmap_filters_demo
+[5.068s] Invoking command in '/home/elson/proj4_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/nav2_costmap_filters_demo -- -j16 -l16
+[5.095s] Invoked command in '/home/elson/proj4_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --build /home/elson/proj4_ws/build/nav2_costmap_filters_demo -- -j16 -l16
+[5.110s] Invoking command in '/home/elson/proj4_ws/build/nav2_costmap_filters_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/nav2_costmap_filters_demo
+[5.115s] -- Install configuration: ""
+[5.115s] -- Execute custom install script
+[5.116s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/launch/costmap_filter_info.launch.py
+[5.121s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.pgm
+[5.126s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/keepout_mask.yaml
+[5.131s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.pgm
+[5.135s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/maps/speed_mask.yaml
+[5.140s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/keepout_params.yaml
+[5.144s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/params/speed_params.yaml
+[5.149s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_filters_demo
+[5.153s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_filters_demo
+[5.158s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.sh
+[5.163s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/ament_prefix_path.dsv
+[5.168s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.sh
+[5.172s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/environment/path.dsv
+[5.177s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.bash
+[5.181s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.sh
+[5.186s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.zsh
+[5.190s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/local_setup.dsv
+[5.195s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.dsv
+[5.199s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/ament_index/resource_index/packages/nav2_costmap_filters_demo
+[5.204s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig.cmake
+[5.209s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/cmake/nav2_costmap_filters_demoConfig-version.cmake
+[5.214s] -- Symlinking: /home/elson/proj4_ws/install/nav2_costmap_filters_demo/share/nav2_costmap_filters_demo/package.xml
+[5.221s] Invoked command in '/home/elson/proj4_ws/build/nav2_costmap_filters_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander:/home/elson/proj4_ws/install/nav2_simple_commander:/opt/ros/foxy /usr/bin/cmake --install /home/elson/proj4_ws/build/nav2_costmap_filters_demo

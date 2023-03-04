@@ -1,9 +1,11 @@
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/launch/base.launch.py
+/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/launch/costmap_filter_info.launch.py
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/launch/fake.launch.py
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/launch/gazebo.launch.py
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/launch/hardware.launch.py
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/launch/riot_waffle_nav_launch.xml
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/launch/robot_state_publisher.launch.py
+/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/launch/simulation_gazebo.launch.py
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/config/gazebo_controller_manager.yaml
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/config/hardware_controller_manager.yaml
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/rviz/turtlebot3_manipulation.rviz
@@ -11,6 +13,9 @@
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/Library_Punggol/model.config
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/Library_Punggol/model.sdf
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/empty_world.model
+/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/libChair/model.config
+/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/libChair/model.sdf
+/home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/libChair_world.model
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/library_world.model
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/turtlebot3_world.model
 /home/elson/proj4_ws/install/turtlebot3_manipulation_bringup/share/turtlebot3_manipulation_bringup/worlds/turtlebot3_world/meshes/hexagon.dae

@@ -1,0 +1,18 @@
+[3.685s] Invoking command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_commander': PYTHONPATH=/home/elson/proj4_ws/build/turtlebot3_manipulation_commander/prefix_override:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/elson/proj4_ws/build/turtlebot3_manipulation_commander/build --no-deps install_data
+[3.815s] running develop
+[3.961s] running egg_info
+[3.961s] writing turtlebot3_manipulation_commander.egg-info/PKG-INFO
+[3.961s] writing dependency_links to turtlebot3_manipulation_commander.egg-info/dependency_links.txt
+[3.961s] writing entry points to turtlebot3_manipulation_commander.egg-info/entry_points.txt
+[3.961s] writing requirements to turtlebot3_manipulation_commander.egg-info/requires.txt
+[3.961s] writing top-level names to turtlebot3_manipulation_commander.egg-info/top_level.txt
+[4.023s] reading manifest file 'turtlebot3_manipulation_commander.egg-info/SOURCES.txt'
+[4.047s] writing manifest file 'turtlebot3_manipulation_commander.egg-info/SOURCES.txt'
+[4.132s] running build_ext
+[4.620s] Creating /home/elson/proj4_ws/install/turtlebot3_manipulation_commander/lib/python3.8/site-packages/turtlebot3-manipulation-commander.egg-link (link to .)
+[4.622s] Installing follower_ros script to /home/elson/proj4_ws/install/turtlebot3_manipulation_commander/lib/turtlebot3_manipulation_commander
+[4.622s] Installing robot_patrol script to /home/elson/proj4_ws/install/turtlebot3_manipulation_commander/lib/turtlebot3_manipulation_commander
+[4.623s] 
+[4.623s] Installed /home/elson/proj4_ws/build/turtlebot3_manipulation_commander
+[4.623s] running install_data
+[4.651s] Invoked command in '/home/elson/proj4_ws/build/turtlebot3_manipulation_commander' returned '0': PYTHONPATH=/home/elson/proj4_ws/build/turtlebot3_manipulation_commander/prefix_override:/home/elson/proj4_ws/install/turtlebot3_manipulation_commander/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/elson/proj4_ws/build/turtlebot3_manipulation_commander/build --no-deps install_data

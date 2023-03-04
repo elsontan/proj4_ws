@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000088] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.000107] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.000117] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.000125] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.000133] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.000142] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.000149] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation'}
+[0.000157] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_bringup'}
+[0.000164] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_cartographer'}
+[0.000172] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_commander'}
+[0.000180] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_description'}
+[0.000188] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_hardware'}
+[0.000195] (-) JobUnselected: {'identifier': 'turtlebot3_manipulation_moveit_config'}
+[0.000204] (-) EventReactorShutdown: {}

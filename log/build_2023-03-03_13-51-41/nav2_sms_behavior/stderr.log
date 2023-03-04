@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findnav2_behaviors.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "nav2_behaviors", but CMake did not find one.
+
+  Could not find a package configuration file provided by "nav2_behaviors"
+  with any of the following names:
+
+    nav2_behaviorsConfig.cmake
+    nav2_behaviors-config.cmake
+
+  Add the installation prefix of "nav2_behaviors" to CMAKE_PREFIX_PATH or set
+  "nav2_behaviors_DIR" to a directory containing one of the above files.  If
+  "nav2_behaviors" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
