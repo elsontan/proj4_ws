@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!-- OpenManipulator-X -->
+<!--
+Copied and modified from open_manipulator-x example -
+https://github.com/ROBOTIS-GIT/open_manipulator/blob/kinetic-devel/open_manipulator_description/urdf/open_manipulator.urdf.xacro
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="prototype" params="prefix">  
+    <xacro:include filename="inertial_macros.xacro"/>
+
+    <!-- MECHANISM LINK -->
+    <link name="${prefix}link1">
+      <visual>
+          <origin xyz="0 0 0"/>
+          <geometry>
+              <box size="0.2 0.2 0.005"/>
+          </geometry>
+          <material name="grey"/>
+      </visual>
+      <collision>
+          <origin xyz="0 0 0"/>
+          <geometry>
+              <box size="0.2 0.2 0.005"/>
+          </geometry>
+      </collision>
+      <xacro:inertial_box mass="2" x="0.2" y="0.2" z="0.05">
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+      </xacro:inertial_box>
+    </link>
+
+    <joint name="${prefix}joint1" type="fixed">
+      <parent link="${prefix}base_link"/>
+      <child link="${prefix}link1"/>
+      <origin xyz="-0.07 0 0.18"/>
+    </joint>
+
+    <link name="${prefix}link2">
+      <visual>
+          <origin xyz="0 0 0"/>
+          <geometry>
+              <box size="0.2 0.2 0.005"/>
+          </geometry>
+          <material name="grey"/>
+      </visual>
+      <collision>
+          <origin xyz="0 0 0"/>
+          <geometry>
+              <box size="0.2 0.2 0.005"/>
+          </geometry>
+      </collision>
+      <xacro:inertial_box mass="2" x="0.2" y="0.2" z="0.05">
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+      </xacro:inertial_box>
+    </link>
+
+    <joint name="${prefix}joint2" type="prismatic">
+      <parent link="${prefix}link1"/>
+      <child link="${prefix}link2"/>
+      <origin xyz="0 0 0.15"/>
+      <axis xyz="0 0 1"/>
+      <limit effort="1.0" lower="0" upper="0.1" velocity="0.1"/>
+      <dynamics damping="300.0" friction="100.0"/>
+    </joint>
+
+  </xacro:macro>
+
+</robot>
