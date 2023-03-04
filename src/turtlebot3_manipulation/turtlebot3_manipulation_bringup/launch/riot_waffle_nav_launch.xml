@@ -1,0 +1,15 @@
+<launch>
+    
+    <include file="$(find-pkg-share turtlebot3_manipulation_bringup)/launch/gazebo.launch.py"/>
+    <include file="$(find-pkg-share turtlebot3_navigation2)/launch/navigation2.launch.py"/> 
+
+    <!-- Collect pose of chair and navigate near to the chair -->
+    <node pkg="turtlebot3_manipulation_commander" exec="robot_patrol" name="robot_patrol"/>
+    
+    <!-- Activate Camera and orientate/move underneath to the chair -->
+    <!-- <node pkg="turtlebot3_manipulation_commander" exec="follower_ros" name="follower_ros"/> -->
+
+    <!-- Lift the chair up and navigate to the correct pose and drop the chair -->
+    <!-- <include file="$(find-pkg-share turtlebot3_manipulation_moveit_config)/launch/moveit_gazebo.launch.py"/>  -->
+
+</launch>
