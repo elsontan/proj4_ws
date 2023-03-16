@@ -1,5 +1,6 @@
 # ROS2-Project-4
 First step to do before running anything, proceed to: /home/$USER/proj4_ws/src/turtlebot3_manipulation/turtlebot3_manipulation_bringup/worlds/Library_Punggol
+
 Unzip the zip file and paste it in the same directory.
 
 Remember to source the bashrc and edit the source to proj4_ws/install/setup.bash
