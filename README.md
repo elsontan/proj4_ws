@@ -8,7 +8,9 @@ Remember to source the bashrc and edit the source to proj4_ws/install/setup.bash
 Do add in the bashrc file within the last few lines:
 
 export ROS_DOMAIN_ID=30 #TURTLEBOT3
+
 export TURTLEBOT3_MODEL="waffle_pi"
+
 export LC_NUMERIC="en_US.UTF-8"
 
 For simulation and navigation, run commands:
