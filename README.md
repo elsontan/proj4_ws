@@ -4,7 +4,9 @@ First step to do before running anything, proceed to: /home/$USER/proj4_ws/src/t
 Unzip the zip file and paste it in the same directory.
 
 Remember to source the bashrc and edit the source to proj4_ws/install/setup.bash
+
 Do add in the bashrc file within the last few lines:
+
 export ROS_DOMAIN_ID=30 #TURTLEBOT3
 export TURTLEBOT3_MODEL="waffle_pi"
 export LC_NUMERIC="en_US.UTF-8"
