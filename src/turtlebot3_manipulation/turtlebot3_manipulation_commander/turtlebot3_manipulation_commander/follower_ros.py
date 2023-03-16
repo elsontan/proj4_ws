@@ -6,6 +6,7 @@ from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
+from std_msgs.msg import String
 import numpy as np
 import cv2
 import time
@@ -17,41 +18,47 @@ class SimplePubSub(Node):
         self.cmd_vel_pub = self.create_publisher(Twist, '/cmd_vel', 10)
         self.twist = Twist()
 
-        self.poseSub = self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
-        self.poseSub # prevent unused variable warning
+        # self.poseSub = self.create_subscription(Odometry, '/odom', self.odom_callback, 10)
+        # self.poseSub # prevent unused variable warning
 
         self.pose = Odometry()
 
-        self.timer = self.create_timer(0.1, self.timer_callback)
+        # self.timer = self.create_timer(0.1, self.timer_callback)
 
-        self.cap = cv2.VideoCapture(0)
-        self.br = CvBridge()
+        # self.cap = cv2.VideoCapture(0)
+        # self.br = CvBridge()
 
-        self.subscription = self.create_subscription(Image, '/image_raw', self.img_callback, 10)
+        self.subscription = self.create_subscription(Image, '/usb_cam_1/image_raw', self.img_callback, 10) #/pi_camera/image_raw
         self.subscription # prevent unused variable warning
 
         self.br = CvBridge()
 
+        self.publisher_ = self.create_publisher(String, 'waffle_response', 10)
+
         self.moveforward = False
+        self.complete = String()
+        self.end = False
 
-    def odom_callback(self,msg):
-        # To track the position of the robot
-        x = ('%s' % ('%.3g' % float(msg.pose.pose.position.x)))
-        y = ('%s' % ('%.3g' % float(msg.pose.pose.position.y)))
-        z = ('%s' % ('%.3g' % float(msg.pose.pose.position.z)))
+    # def odom_callback(self,msg):
+    #     # To track the position of the robot
+    #     x = ('%s' % ('%.3g' % float(msg.pose.pose.position.x)))
+    #     y = ('%s' % ('%.3g' % float(msg.pose.pose.position.y)))
+    #     z = ('%s' % ('%.3g' % float(msg.pose.pose.position.z)))
 
-        arr = np.array(["x: "+x,"y: "+y,"z: "+z])
-        np.set_printoptions(suppress = True)
+    #     arr = np.array(["x: "+x,"y: "+y,"z: "+z])
+    #     np.set_printoptions(suppress = True)
+
+        # print(arr)
         
         # orientation = self.pose.pose.orientation
         # (posx, posy, posz) = (pos.x, pos.y, pos.z)
         # (qx, qy, qz, qw) = (orientation.x, orientation.y, orientation.z, orientation.w)
-        print(arr)
+        
 
-    def timer_callback(self):
-        ret, frame = self.cap.read()
-        if ret == True:
-            self.publisher_.publish(self.br.cv2_to_imgmsg(frame))
+    # def timer_callback(self):
+    #     ret, frame = self.cap.read()
+    #     if ret == True:
+    #         self.publisher_.publish(self.br.cv2_to_imgmsg(frame))
 
     def img_callback(self, data):
         
@@ -61,17 +68,17 @@ class SimplePubSub(Node):
 
         # convert to hsv colorspace
         # lower bound and upper bound for blue color
-        lower_bound = np.array([100, 00, 0])
-        upper_bound = np.array([130, 255, 255])
+        lower_bound = np.array([100, 50, 50])
+        upper_bound = np.array([140, 200, 200])
 
         # find the colors within the boundaries
         mask = cv2.inRange(hsv, lower_bound, upper_bound)
 
         areaDetect = np.zeros((480, 640), dtype="uint8")
 
-        offset_width = 10
-        cv2.rectangle(areaDetect, (0+offset_width, 300), (250, 350), (255), -1)
-        cv2.rectangle(areaDetect, (380, 300), (640-offset_width, 350), (255), -1)
+        offset_width =50
+        cv2.rectangle(areaDetect, (0, 260), (250+offset_width, 350), (255), -1)
+        cv2.rectangle(areaDetect, (380-offset_width, 260), (640, 350), (255), -1)
         # cv2.rectangle(areaDetect, (0, 300), (640, 400), (255), -1)
 
         # Find Canny edges
@@ -92,21 +99,19 @@ class SimplePubSub(Node):
 
         # print(self.pose.position, self.pose.orientation)
 
-        if M['m00'] > 0:
+        if (M['m00'] > 0)&(self.end == False):
+
+            #print(self.moveforward)
 
             if self.moveforward == False:
                 fwd_speed = 0.0
-                turn_speed = 1000
+                turn_speed = 1800
 
             elif self.moveforward == True:
                 fwd_speed = 0.15
-                turn_speed = 8000
+                turn_speed = 20000
                 self.twist.angular.z = 0.0
                 cv2.line(img, (320,280),(320,400),(255,0,0),2)
-
-            else:
-                fwd_speed = 0.0
-                turn_speed = 0.0
 
 
             # calculate x,y coordinate to find centroid of image
@@ -114,9 +119,10 @@ class SimplePubSub(Node):
             cy = int(M['m01']/M['m00'])
             # to highlight the center
             cv2.circle(img, (cx, cy), 5, (0, 0, 255), -1)
-            cv2.line(img, (cx-40,280),(cx-40,400),(0,255,0),2)
-            cv2.line(img, (cx+40,280),(cx+40,400),(0,255,0),2)
+            # cv2.line(img, (cx-40,280),(cx-40,400),(0,255,0),2)
+            # cv2.line(img, (cx+40,280),(cx+40,400),(0,255,0),2)
             # CONTROL starts
+            err = 0
             err = int(cx - 640/2)  # To centralise in middle of screen
             self.twist.linear.x = fwd_speed
             # Tune the divisor to adjust speed of turning
@@ -124,7 +130,7 @@ class SimplePubSub(Node):
             self.cmd_vel_pub.publish(self.twist)
             # CONTROL ends
 
-            if (err >= -3 & err <= 3):
+            if ((err > -5) & (err < 5)):
                 self.moveforward = True
                 self.twist.linear.x = fwd_speed
                 self.twist.angular.z = 0.0
@@ -132,10 +138,19 @@ class SimplePubSub(Node):
 
         elif ((M['m00'] <= 0) & (self.twist.linear.x != 0)):
             self.moveforward = False
-            time.sleep(1)
+            time.sleep(3)
+            self.end = True
             self.twist.linear.x = 0.0
             self.twist.angular.z = 0.0
             self.cmd_vel_pub.publish(self.twist)
+            self.complete.data = 'Pose Reached'
+            self.publisher_.publish(self.complete)
+
+        if(self.end):
+            self.twist.linear.x = 0.0
+            self.twist.angular.z = 0.0
+            self.cmd_vel_pub.publish(self.twist)
+
 
 
         cv2.imshow("camera", img)

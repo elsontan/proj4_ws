@@ -20,8 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                "robot_patrol = turtlebot3_manipulation_commander.turtlebot3_commander:main",
-                "follower_ros = turtlebot3_manipulation_commander.follower_ros:main"
+                "robot_patrol = turtlebot3_manipulation_commander.patrol:main",
+                "follower_ros = turtlebot3_manipulation_commander.follower_ros:main",
+                "test_pub = turtlebot3_manipulation_commander.test:main",
+                "listener = turtlebot3_manipulation_commander.listener:main",
         ],
     },
 )

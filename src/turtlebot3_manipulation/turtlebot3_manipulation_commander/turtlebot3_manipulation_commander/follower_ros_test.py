@@ -36,6 +36,8 @@ class SimplePubSub(Node):
 
         img = self.br.imgmsg_to_cv2(data)
         hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+        
+        # blur = cv2.GaussianBlur(hsv,(10,10),cv2.BORDER_DEFAULT) #cv2.fastNlMeansDenoisingColored(hsv, None, 40,20,7,21)
         # h, w, d = mask.shape #h=480,w=640
 
         # convert to hsv colorspace
