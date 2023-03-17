@@ -68,7 +68,7 @@ class SimplePubSub(Node):
 
         # convert to hsv colorspace
         # lower bound and upper bound for blue color
-        lower_bound = np.array([100, 50, 50])
+        lower_bound = np.array([100, 100, 100])
         upper_bound = np.array([140, 200, 200])
 
         # find the colors within the boundaries
@@ -138,7 +138,7 @@ class SimplePubSub(Node):
 
         elif ((M['m00'] <= 0) & (self.twist.linear.x != 0)):
             self.moveforward = False
-            time.sleep(3)
+            time.sleep(4)
             self.end = True
             self.twist.linear.x = 0.0
             self.twist.angular.z = 0.0

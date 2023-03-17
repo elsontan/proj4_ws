@@ -15,13 +15,14 @@ class RecMisplacedPose(Node):
         self.navigator = BasicNavigator()
         self.pose= PoseStamped()
         self.store = PoseStamped()
-        # self.subscription = self.create_subscription(Marker,'tag_pose_marker',self.listener_callback,10)
-        # self.subscription  # prevent unused variable warning
+        self.subscription = self.create_subscription(Marker,'tag_pose_marker',self.listener_callback,10)
+        self.subscription  # prevent unused variable warning
 
         self.publisher_ = self.create_publisher(PoseStamped, 'cmd_waffle', 10)
         self.end = False
 
-        full_route = [[2.0, 0.00, 0.505]] #,[2.17, 2.83, 2.36], [0.00, 3.00, -1.57], [0.00, 0.00, 0.00]]
+        #Route to patrol (position x, position y, orientation z)
+        full_route = [[2.0, 0.00, 0.505] ,[2.17, 2.83, 2.36], [0.00, 3.00, -1.57], [0.00, 0.00, 0.00]]
       
         # Wait for navigation to fully activate
         self.navigator.waitUntilNav2Active()
@@ -34,22 +35,21 @@ class RecMisplacedPose(Node):
             while not self.navigator.isTaskComplete():
                 pass
         
+        #Patrol mode ended
+        self.end = True
 
-        # self.end = True
+    def listener_callback(self, tag_marker):
 
+        self.store.pose.position.x = float(tag_marker.pose.position.x)
+        self.store.pose.position.y = float(tag_marker.pose.position.y)
+        self.store.pose.orientation.z = float(tag_marker.pose.orientation.z)
 
-    # def listener_callback(self, tag_marker):
+        if(self.end == True):
+            print("Patrol ended")
 
-    #     self.store.pose.position.x = float(tag_marker.pose.position.x)
-    #     self.store.pose.position.y = float(tag_marker.pose.position.y)
-    #     self.store.pose.orientation.z = float(tag_marker.pose.orientation.z)
-
-    #     if(self.end == True):
-    #         print("Patrol ended")
-
-    #         if(self.navigator.isTaskComplete()):
-    #             #Send the aruco misplacechair to listener node
-    #             self.publisher_.publish(self.store)
+            if(self.navigator.isTaskComplete()):
+                #Send the aruco misplace chair to listener node
+                self.publisher_.publish(self.store)
 
 def main(args=None):
     rclpy.init(args=args)

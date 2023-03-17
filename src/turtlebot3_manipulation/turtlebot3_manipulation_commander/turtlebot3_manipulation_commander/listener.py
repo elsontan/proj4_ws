@@ -56,22 +56,18 @@ class CommandVelSub(Node):
             while not self.navigator.isTaskComplete():
                 pass
 
-        # Later to check back x:0.0 and y:0.0
-        if ((pose.pose.position.x == 2.0) & (pose.pose.position.y == 0.0)):
+        # Ending position of the patrol mode to start the navigation to misplaced chair
+        if ((pose.pose.position.x == 0.0) & (pose.pose.position.y == 0.0)):
             self.complete.data = "Patrol Complete"
             self.publisher_.publish(self.complete)
 
-        # if((pose.pose.position.x == 0.632) & (pose.pose.position.y == 2.022)):
-        #     self.complete.data = "Pose Reached"
-        #     self.publisher_.publish(self.complete)
-
+        #Position of chair lot around the tables
         elif (((pose.pose.position.x == 1.18) & (pose.pose.position.y == -1.01)) or 
               ((pose.pose.position.x == 1.523) & (pose.pose.position.y == 1.212)) or 
-              ((pose.pose.position.x == 1.79) & (pose.pose.position.y == 1.88)) or 
-              ((pose.pose.position.x == 1.79) & (pose.pose.position.y == 1.02)) or 
-              ((pose.pose.position.x == 0.63) & (pose.pose.position.y == 1.88)) or 
-              ((pose.pose.position.x == 0.63) & (pose.pose.position.y == 1.02))):
+              ((pose.pose.position.x == 1.69) & (pose.pose.position.y == 1.24)) or 
+              ((pose.pose.position.x == 0.68) & (pose.pose.position.y == 1.89))):
 
+            #Send 'Pose Reached' to allow scissors lift to release the chair
             self.complete.data = "Pose Reached"
             self.publisher_.publish(self.complete)
 
